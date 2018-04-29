@@ -216,3 +216,61 @@ body {
     border: 0 none;
   }
   
+  @media screen and (max-width: 640px){
+      #masthead .container, #logo, nav {
+          width: 100%;
+      }
+
+      nav {
+          text-align: center;
+      }
+
+
+     #main-container.container {
+         width: 95%
+     }
+     
+     #main-container {
+         padding-top: 170px;
+     }
+
+
+  }
+
+
+
+  @media screen and (max-width: 768px){
+
+    #masthead {
+        width: 100%;
+    }
+
+    nav {
+        padding-right: 10px;
+    }
+
+
+    #main-container.container {
+        width: 90%
+        
+    }
+    
+    #main-container {
+        
+        margin: 50px;
+    }
+  }
+
+
+
+
+  @media screen and (max-width: 980px){
+
+    #main-container {
+        
+        float: left;
+        width: 50%;
+        margin: 20px;
+    }
+
+  }
